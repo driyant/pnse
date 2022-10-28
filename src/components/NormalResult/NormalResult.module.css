@@ -1,0 +1,47 @@
+.wrapper {
+  margin: 1.2rem 0;
+  box-shadow: 10px 11px 21px 5px rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+
+.wrapper .url_links {
+  font-size: 0.775rem;
+  margin: 0;
+  color: #353535;
+}
+
+.wrapper h3 {
+  margin: 0.5rem 0;
+}
+
+.wrapper h3 a {
+  text-decoration: none;
+}
+
+.wrapper h3 a:hover {
+  text-decoration: underline;
+  transition: 0.3s ease;
+}
+
+.wrapper .description {
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.wrapper .bookmarks {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+/* .wrapper .bookmarks p {
+  font-size: 0.875rem;
+} */
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    width: 70%;
+  }
+}

@@ -1,0 +1,40 @@
+.header {
+  height: 100px;
+  padding-top: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.header h1 {
+  color: #414141;
+}
+
+.header .wrapper {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 0.875rem;
+}
+
+main .content_wrapper {
+  padding: 1.2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: 0.875rem;
+  margin: 1.5rem 0;
+}
+
+main .content_wrapper .bookmark_wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+main .content_wrapper .bookmark_wrapper span,
+main .content_wrapper .bookmark_wrapper p {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    width: 90%;
+  }
+}

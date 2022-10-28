@@ -1,0 +1,23 @@
+.btn_loadmore {
+  height: 30px;
+  width: 100px;
+  border: 0.5px solid #9c9c9c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #444444;
+  border-radius: 18px;
+  transition: 0.5s ease;
+  font-size: 0.775rem;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  background: #fff;
+  margin: 0 auto;
+}
+
+.btn_loadmore:hover {
+  color: #fff;
+  background: #444444;
+  border: none;
+}
