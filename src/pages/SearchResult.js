@@ -54,7 +54,6 @@ const SearchResult = () => {
 
   const searchHandler = (e) => {
     e.preventDefault();
-    fetchData();
     navigate(`/search?q=${searchInput}&cat=${selectedOptions}`);
   };
 
@@ -82,12 +81,18 @@ const SearchResult = () => {
 
   useEffect(() => {
     navigate(`/search?q=${searchInput}&cat=${selectedOptions}`);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [q, cat]);
+
+  useEffect(() => {
     fetchData();
     if (!localStorage.getItem("bookmarks")) {
       localStorage.setItem("bookmarks", JSON.stringify([]));
     }
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedOptions, q, cat]);
+
   return (
     <>
       <ToastContainer />
