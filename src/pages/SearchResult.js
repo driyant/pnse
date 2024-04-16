@@ -54,7 +54,6 @@ const SearchResult = () => {
 
   const searchHandler = (e) => {
     e.preventDefault();
-    fetchData();
     navigate(`/search?q=${searchInput}&cat=${selectedOptions}`);
   };
 
