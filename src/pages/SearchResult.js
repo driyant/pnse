@@ -6,11 +6,14 @@ import NewsResult from "../components/NewsResult/NewsResult";
 import { useNavigate, useSearchParams, Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import axios from "axios";
+import { generateBaseURL } from "../constants";
 
 const SearchResult = () => {
   let baseUrl;
   let headers;
   let params = {};
+
   const [searchParams] = useSearchParams();
   const q = searchParams.get("q");
   const cat = searchParams.get("cat");
@@ -18,91 +21,50 @@ const SearchResult = () => {
   const [searchInput, setSearchInput] = useState(q);
   const [selectedOptions, setSelectedOptions] = useState(cat);
   const [results, setResults] = useState([]);
-  const [count] = useState(50);
-  const [offset, setOffset] = useState(0);
+  // const [count] = useState(50);
+  // const [offset, setOffset] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
-  const loadmoreHandler = () => {
-    console.log("click");
-    setOffset(offset + 10);
-    if (selectedOptions === "normal") {
-      setOffset(offset + 10);
-    }
-  };
+
+  // const loadmoreHandler = () => {
+  //   console.log("click");
+  //   setOffset(offset + 10);
+  //   if (selectedOptions === "normal") {
+  //     setOffset(offset + 10);
+  //   }
+  // };
+
   const fetchData = async () => {
-    if (selectedOptions === "normal") {
-      baseUrl = `https://bing-web-search1.p.rapidapi.com/search?q=${searchInput}&offset=${offset}&count=${count}`;
-      params.q = `${searchInput}`;
-      params.offset = `${offset}`;
-      params.count = `${count}`;
-      params.mkt = "en-us";
-      params.safeSearch = "Off";
-      params.textFormat = "Raw";
-      params.freshness = "Day";
-      headers = {
-        "X-BingApis-SDK": "true",
-        "X-RapidAPI-Key": "46e4b65e04msheb644f0a571b5dbp1575ddjsndaeefb3c27ce",
-        "X-RapidAPI-Host": "bing-web-search1.p.rapidapi.com",
-      };
-    }
-    if (selectedOptions === "image") {
-      baseUrl = `https://bing-image-search1.p.rapidapi.com/images/search?q=${searchInput}}&offset=${offset}&count=${count}`;
-      params = {
-        q: `${searchInput}`,
-      };
-      headers = {
-        "X-RapidAPI-Key": "46e4b65e04msheb644f0a571b5dbp1575ddjsndaeefb3c27ce",
-        "X-RapidAPI-Host": "bing-image-search1.p.rapidapi.com",
-      };
-    }
-    if (selectedOptions === "news") {
-      baseUrl = `https://bing-news-search1.p.rapidapi.com/news/search?q=${searchInput}}&offset=${offset}&count=${count}`;
-      params = {
-        q: `${searchInput}`,
-        freshness: "Day",
-        textFormat: "Raw",
-        safeSearch: "Off",
-      };
-      headers = {
-        "X-BingApis-SDK": "true",
-        "X-RapidAPI-Key": "46e4b65e04msheb644f0a571b5dbp1575ddjsndaeefb3c27ce",
-        "X-RapidAPI-Host": "bing-news-search1.p.rapidapi.com",
-      };
-    }
     setIsLoading(true);
     try {
-      const req = await fetch(baseUrl, {
-        method: "GET",
-        params: params,
-        headers: headers,
-      });
-      const resp = await req.json();
-      if (selectedOptions === "normal") {
-        setResults(resp.webPages.value);
-      }
-      if (selectedOptions === "image") {
-        setResults(resp.value);
-      }
-      if (selectedOptions === "news") {
-        setResults(resp.value);
+      if (process.env.NODE_ENV === "development") {
+        const resp = await axios.get(generateBaseURL(selectedOptions));
+        setResults(resp.data.data);
+      } else {
+        const resp = await axios.post(generateBaseURL(selectedOptions), {
+          query: q,
+        });
+        setResults(resp.data.data);
       }
     } catch (error) {
-      toast.error("Something error when fetching data");
+      console.error(error.response);
     } finally {
-      setTimeout(() => {
-        setIsLoading(false);
-      }, 2000);
+      setIsLoading(false);
     }
   };
+
   const searchHandler = (e) => {
     e.preventDefault();
     fetchData();
     navigate(`/search?q=${searchInput}&cat=${selectedOptions}`);
   };
+
   const bookmarkHandler = (news) => {
     const dataBookmarks = JSON.parse(localStorage.getItem("bookmarks"));
+
     const findNews = dataBookmarks.find(
       (bookmark) => bookmark.name === news.name
     );
+
     if (findNews) {
       toast.error("You have already bookmarked this news!");
       return;
@@ -111,18 +73,21 @@ const SearchResult = () => {
     localStorage.setItem("bookmarks", JSON.stringify(newArr));
     toast.success("News has been bookmarked!");
   };
+
   const clearBookmarkHandler = (e) => {
     e.preventDefault();
     toast.success("All bookmarks has been cleared!");
     localStorage.setItem("bookmarks", JSON.stringify([]));
   };
+
   useEffect(() => {
-    fetchData();
     navigate(`/search?q=${searchInput}&cat=${selectedOptions}`);
+    fetchData();
     if (!localStorage.getItem("bookmarks")) {
       localStorage.setItem("bookmarks", JSON.stringify([]));
     }
-  }, [selectedOptions, offset]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedOptions, q, cat]);
   return (
     <>
       <ToastContainer />
@@ -142,7 +107,7 @@ const SearchResult = () => {
               defaultValue={cat}
               onChange={(e) => setSelectedOptions(e.target.value)}
             >
-              <option value="normal">Normal search</option>
+              <option value="web">Web search</option>
               <option value="image">Image search</option>
               <option value="news">News search</option>
             </select>
@@ -194,15 +159,15 @@ const SearchResult = () => {
         {!isLoading && (
           <p style={{ fontSize: "0.775rem", fontFamily: "Open Sans" }}>
             Found : {results.length} items of{" "}
-            <span style={{ textDecoration: "underline" }}>{q}</span> in <span style={{ textDecoration: "underline" }}>{cat}</span> result
+            <span style={{ textDecoration: "underline" }}>{q}</span> in{" "}
+            <span style={{ textDecoration: "underline" }}>{cat}</span> result
           </p>
         )}
-        {selectedOptions === "normal" && (
+        {selectedOptions === "web" && (
           <NormalResult
             results={results}
             isLoading={isLoading}
             bookmarkHandler={bookmarkHandler}
-            loadmoreHandler={loadmoreHandler}
           />
         )}
         {selectedOptions === "image" && (
@@ -210,14 +175,13 @@ const SearchResult = () => {
             results={results}
             isLoading={isLoading}
             searchInput={searchInput}
-            loadmoreHandler={loadmoreHandler}
           />
         )}
-        {cat === "news" && isLoading === false && (
+        {cat === "news" && (
           <NewsResult
             results={results}
             isLoading={isLoading}
-            loadmoreHandler={loadmoreHandler}
+            searchInput={searchInput}
           />
         )}
       </main>

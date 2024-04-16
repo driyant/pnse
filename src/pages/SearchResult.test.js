@@ -1,6 +1,11 @@
-import { render, screen, queryByAttribute, cleanup } from "@testing-library/react";
+import {
+  render,
+  screen,
+  queryByAttribute,
+  cleanup,
+} from "@testing-library/react";
 import SearchResult from "./SearchResult";
-import { MemoryRouter } from 'react-router-dom'
+import { MemoryRouter } from "react-router-dom";
 
 // const searchParams = { "q": "badminton", "cat" : "normal"};
 // jest.mock('react-router-dom', () => ({
@@ -29,6 +34,6 @@ describe("Search Result Component", () => {
     window.fetch = jest.fn();
     window.fetch.mockResolvedValueOnce({
       json: async () => [{ id: "id" }],
-    })
+    });
   });
 });

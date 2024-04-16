@@ -9,42 +9,43 @@ const NewsResult = ({ results, isLoading, loadmoreHandler }) => {
     <>
       <div className={styles.top_wrapper}>
         {results.map((result, index) => {
-          const [data] = result.provider;
           return (
             <div className={styles.wrapper} key={index}>
               <div className={styles.left_content}>
                 <div className={styles.source}>
-                  <p>{data.name}</p>
+                  {/* <p>{result.title}</p> */}
                 </div>
                 <h4>
-                  <a href={result.url}>
-                    {isLoading ? <Skeleton /> : result.name}
+                  <a href={result.link}>
+                    {/* {isLoading ? <Skeleton /> : result.name} */}
+                    {result.title}
                   </a>
                 </h4>
-                <p>{result.description.substring(0, 100)}...</p>
+                {/* <p>{result?.description.substring(0, 100)}...</p> */}
                 <p>
-                  {result.datePublished === undefined || isLoading ? (
+                  {isLoading ? (
                     <Skeleton />
+                  ) : result?.published_datetime_utc ? (
+                    formatDate(result.published_datetime_utc)
                   ) : (
-                    formatDate(result.datePublished)
+                    ""
                   )}
                 </p>
               </div>
               <div className={styles.right_content}>
-                {result.image === undefined ? (
+                {isLoading ? (
                   <Skeleton />
                 ) : (
-                  <img
-                    src={result.image.thumbnail.contentUrl}
-                    alt={result.title}
-                  />
+                  <img src={result.source_favicon_url} alt={result.title} />
                 )}
               </div>
             </div>
           );
         })}
       </div>
-      {results.length !== 0 && <ButtonLoadMore loadmoreHandler={loadmoreHandler} />}
+      {/* {results.length !== 0 && (
+        <ButtonLoadMore loadmoreHandler={loadmoreHandler} />
+      )} */}
     </>
   );
 };

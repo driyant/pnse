@@ -1,6 +1,6 @@
 .wrapper {
   margin: 1.2rem 0;
-  box-shadow: 10px 11px 21px 5px rgba(0,0,0,0.1);
+  box-shadow: 10px 11px 21px 5px rgba(0, 0, 0, 0.1);
   padding: 1rem;
 }
 
@@ -34,6 +34,8 @@
   align-items: center;
   cursor: pointer;
   font-size: 0.875rem;
+  /* border: 1px solid red; */
+  width: fit-content;
 }
 
 /* .wrapper .bookmarks p {
