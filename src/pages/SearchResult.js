@@ -54,7 +54,6 @@ const SearchResult = () => {
 
   const searchHandler = (e) => {
     e.preventDefault();
-    fetchData();
     navigate(`/search?q=${searchInput}&cat=${selectedOptions}`);
   };
 
@@ -81,7 +80,6 @@ const SearchResult = () => {
   };
 
   useEffect(() => {
-    navigate(`/search?q=${searchInput}&cat=${selectedOptions}`);
     fetchData();
     if (!localStorage.getItem("bookmarks")) {
       localStorage.setItem("bookmarks", JSON.stringify([]));
