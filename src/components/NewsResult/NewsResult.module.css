@@ -1,9 +1,10 @@
 .wrapper {
   display: flex;
   flex-flow: row wrap;
-  box-shadow: 10px 11px 21px 5px rgba(0,0,0,0.1);
+  box-shadow: 10px 11px 21px 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 1rem;
   border-radius: 12px;
+  padding: 1.5rem;
 }
 
 .wrapper .left_content {

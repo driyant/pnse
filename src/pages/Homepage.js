@@ -4,20 +4,26 @@ import { useNavigate } from "react-router-dom";
 
 const Homepage = () => {
   const navigate = useNavigate();
-  const [selectedOption, setSelectedOptions] = useState("normal");
+  const [selectedOption, setSelectedOptions] = useState("web");
   const [searchInput, setSearchInput] = useState("");
+
   const searchHandler = (e) => {
     e.preventDefault();
     navigate(`/search?q=${searchInput}&cat=${selectedOption}`);
   };
+
   useEffect(() => {
     localStorage.setItem("bookmarks", JSON.stringify([]));
-  }, [])
+  }, []);
+
   return (
     <>
       <section className={styles.top_option_wrapper}>
         <div className={styles.option_content}>
-          <label htmlFor="search_options" style={{ fontSize: "0.875rem", fontFamily: 'Open Sans' }}>
+          <label
+            htmlFor="search_options"
+            style={{ fontSize: "0.875rem", fontFamily: "Open Sans" }}
+          >
             Search by:{" "}
           </label>
           <select
@@ -27,7 +33,7 @@ const Homepage = () => {
             onChange={(e) => setSelectedOptions(e.target.value)}
             defaultValue={selectedOption}
           >
-            <option value="normal">Normal Search</option>
+            <option value="web">Web Search</option>
             <option value="image">Image Search</option>
             <option value="news">News Search</option>
           </select>

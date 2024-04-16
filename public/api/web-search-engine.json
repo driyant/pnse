@@ -1,0 +1,671 @@
+{
+  "status": "OK",
+  "request_id": "95d39752-31d8-4457-bbb4-9b63c6bd47c0",
+  "data": [
+    {
+      "title": "Soccer Scores - 2023 Season",
+      "snippet": "Live scores for all soccer major league games on ESPN. Includes box scores, video highlights, play breakdowns and updated odds.",
+      "url": "https://www.espn.com/soccer/scoreboard",
+      "domain": "www.espn.com",
+      "position": 1
+    },
+    {
+      "title": "U.S. Soccer Official Website | USWNT & USMNT",
+      "snippet": "Welcome to the home of U.S. Soccer, where you can find the latest USMNT and USWNT soccer news, rosters, tournament results, scoring highlights and much ...",
+      "url": "https://www.ussoccer.com/",
+      "domain": "www.ussoccer.com",
+      "position": 2
+    },
+    {
+      "title": "Association football",
+      "snippet": "Association football, commonly known as football, or soccer, is a team sport played between two teams of 11 players each, who primarily use their feet to ...",
+      "url": "https://en.m.wikipedia.org/wiki/Association_football",
+      "domain": "en.m.wikipedia.org",
+      "position": 3
+    },
+    {
+      "title": "MLSsoccer.com - The Official Site of Major League Soccer",
+      "snippet": "All the latest MLS news, scores, stats, standings and highlights. Plus special coverage of US Soccer and Canada Soccer.",
+      "url": "https://www.mlssoccer.com/",
+      "domain": "www.mlssoccer.com",
+      "position": 4
+    },
+    {
+      "title": "SOCCER.COM | Soccer Cleats and Shoes, Soccer Jerseys, Soccer ...",
+      "snippet": "SOCCER.COM is the best soccer store for all of your soccer gear needs. Shop for soccer cleats and shoes, replica soccer jerseys, soccer balls, team uniforms ...",
+      "url": "https://www.soccer.com/",
+      "domain": "www.soccer.com",
+      "position": 5
+    },
+    {
+      "title": "Soccer on ESPN - Scores, Stats and Highlights",
+      "snippet": "Visit ESPN for soccer live scores, highlights and news from all major soccer leagues. Stream games on ESPN and play Fantasy Soccer.",
+      "url": "https://www.espn.com/soccer/",
+      "domain": "www.espn.com",
+      "position": 6
+    },
+    {
+      "title": "2024 Soccer News, Rumors, Scores, Stats, Standings",
+      "snippet": "Sports News, Scores, Fantasy Games.",
+      "url": "https://sports.yahoo.com/soccer/",
+      "domain": "sports.yahoo.com",
+      "position": 7
+    },
+    {
+      "title": "U.S. Soccer",
+      "snippet": "USSoccer.com's comprehensive coverage of the U.S. National Teams welcomes fans to our YouTube channel - including interviews, press conferences and other ...",
+      "url": "https://m.youtube.com/channel/UCk1pcWQ5E19g0Cgp4c1eI1w",
+      "domain": "m.youtube.com",
+      "position": 8
+    },
+    {
+      "title": "United Soccer League",
+      "snippet": "The USL Championship is one of the most successful professional soccer leagues in the world, reaching a population of more than 84 million and fueling the ...",
+      "url": "https://www.uslsoccer.com/",
+      "domain": "www.uslsoccer.com",
+      "position": 9
+    },
+    {
+      "title": "Soccer: News, Videos, Stats, Highlights, Results & More",
+      "snippet": "Find all the latest soccer news, live coverage, videos, highlights, stats, predictions, and results right here on NBC Sports.",
+      "url": "https://www.nbcsports.com/soccer",
+      "domain": "www.nbcsports.com",
+      "position": 10
+    },
+    {
+      "title": "U.S. Men's National Team",
+      "snippet": "Welcome to the home of the U.S. Men's National Soccer team! Here you can keep up to date with the latest USMNT matches, results, competitions, highlights, ...",
+      "url": "https://www.ussoccer.com/teams/usmnt",
+      "domain": "www.ussoccer.com",
+      "position": 11
+    },
+    {
+      "title": "Live Soccer Scores, Fixtures & Results",
+      "snippet": "Get the latest live soccer scores, results & fixtures from across the world, including Champions League, powered by Goal.com.",
+      "url": "https://www.goal.com/en-us/live-scores",
+      "domain": "www.goal.com",
+      "position": 12
+    },
+    {
+      "title": "r/soccer",
+      "snippet": "r/soccer: The football subreddit. News, results, and discussion about the beautiful game.",
+      "url": "https://www.reddit.com/r/soccer/",
+      "domain": "www.reddit.com",
+      "position": 13
+    },
+    {
+      "title": "Home - US Youth Soccer - Parent",
+      "snippet": "The US Youth Soccer National League has provided league play for the top USYS boys and girls teams since its inaugural campaign during the 2007-08 youth soccer ...",
+      "url": "https://www.usyouthsoccer.org/",
+      "domain": "www.usyouthsoccer.org",
+      "position": 14
+    },
+    {
+      "title": "Soccer news, match reports and fixtures",
+      "snippet": "Headlines · Ross County 3-2 Rangers. Historic result hurts Scottish title chasers · Man City 5-1 Luton. Guardiola targets league title after City surge top · ' ...",
+      "url": "https://www.theguardian.com/soccer",
+      "domain": "www.theguardian.com",
+      "position": 15
+    },
+    {
+      "title": "Major League Soccer (@MLS) / X",
+      "snippet": "Our Soccer. ⚽️ STL vs. ATX (Sun, 4:30pm ET) En español: @MLSes.",
+      "url": "https://twitter.com/MLS",
+      "domain": "twitter.com",
+      "position": 16
+    },
+    {
+      "title": "Soccer - The Washington Post",
+      "snippet": "SOCCER · D.C. United collapses late in demoralizing loss to Orlando City · Bruce Arena can pursue MLS coaching jobs again, league says · Alyssa Naeher's penalty ...",
+      "url": "https://www.washingtonpost.com/sports/soccer/",
+      "domain": "www.washingtonpost.com",
+      "position": 17
+    },
+    {
+      "title": "NWSL: National Women's Soccer League Official Site",
+      "snippet": "Home of the National Women's Soccer League, get all the info you need right here: Advanced stats, game replays, player info, game schedules and much more.",
+      "url": "https://nwslsoccer.com/",
+      "domain": "nwslsoccer.com",
+      "position": 18
+    },
+    {
+      "title": "Soccer | Latest News, Matchups, Scores, & More",
+      "snippet": "Hetmyer seals IPL thriller for Rajasthan Royals over Punjab Kings · Shimron Hetmyer has provided the finishing touches to Rajasthan Royals' last-over win ...",
+      "url": "https://apnews.com/hub/soccer",
+      "domain": "apnews.com",
+      "position": 19
+    },
+    {
+      "title": "Soccer America - Covering US, International, MLS, College, Youth ...",
+      "snippet": "Soccer America – Covering US, International, MLS, College, Youth and World Cup Soccer · TODAY'S TOP NEWS · Gio Reyna makes first English Premier League start.",
+      "url": "https://www.socceramerica.com/",
+      "domain": "www.socceramerica.com",
+      "position": 20
+    },
+    {
+      "title": "Soccer - The Washington Post",
+      "snippet": "SOCCER · Mallory Swanson and Catarina Macario return to USWNT after long injury absences · A joyous night for USMNT turns the page for Tyler Adams and Gio Reyna.",
+      "url": "https://www.washingtonpost.com/sports/soccer/?nid=menu_nav_sports-soccer?nid=menu_nav_sports-soccer",
+      "domain": "www.washingtonpost.com",
+      "position": 21
+    },
+    {
+      "title": "Soccer Scores",
+      "snippet": "Get up-to-date scores information for Soccer on FOX Sports!",
+      "url": "https://www.foxsports.com/scores/soccer",
+      "domain": "www.foxsports.com",
+      "position": 22
+    },
+    {
+      "title": "Soccer News | Latest Soccer Headlines and Results",
+      "snippet": "Soccer · Talking points from European soccer · Title-chasing Inter held to 2-2 draw by lowly Cagliari · Premier League talking points · Proud Emery returns to ...",
+      "url": "https://www.reuters.com/sports/soccer/",
+      "domain": "www.reuters.com",
+      "position": 23
+    },
+    {
+      "title": "U.S. Soccer Foundation: Home",
+      "snippet": "We transform children's lives. Through soccer, we help children living in underserved communities reach their full potential, improve their well-being, ...",
+      "url": "https://ussoccerfoundation.org/",
+      "domain": "ussoccerfoundation.org",
+      "position": 24
+    },
+    {
+      "title": "mls - Major League Soccer",
+      "snippet": "5M Followers, 1031 Following, 19K Posts - See Instagram photos and videos from Major League Soccer (@mls)",
+      "url": "https://www.instagram.com/mls/?hl=en",
+      "domain": "www.instagram.com",
+      "position": 25
+    },
+    {
+      "title": "National Premier Soccer League",
+      "snippet": "A Pair of Late Goals sees the Lubbock Matadors through to U.S. Open Cup's Third Round · League News. 2024 NPSL Dallas Cup Camp Highlights League's Continued ...",
+      "url": "https://www.npsl.com/",
+      "domain": "www.npsl.com",
+      "position": 26
+    },
+    {
+      "title": "United Soccer Coaches | Uniting Coaches Around the Love of the ...",
+      "snippet": "United Soccer Coaches is the trusted and unifying voice, advocate, and partner for coaches of all levels of the game.",
+      "url": "https://unitedsoccercoaches.org/",
+      "domain": "unitedsoccercoaches.org",
+      "position": 27
+    },
+    {
+      "title": "Soccer Shots: Home",
+      "snippet": "Soccer Shots is the most trusted and engaging children's soccer program for ages 2 to 8. Join the best coaches in the business on Soccer Island for age- ...",
+      "url": "https://www.soccershots.com/",
+      "domain": "www.soccershots.com",
+      "position": 28
+    },
+    {
+      "title": "Soccer Definition & Meaning",
+      "snippet": "The meaning of SOCCER is a game played on a field between two teams of 11 players each with the object to propel a round ball into the opponent's goal by ...",
+      "url": "https://www.merriam-webster.com/dictionary/soccer",
+      "domain": "www.merriam-webster.com",
+      "position": 29
+    },
+    {
+      "title": "mls - Major League Soccer",
+      "snippet": "Welcome to the official YouTube page of Major League Soccer! MLS features stars from around the world, including one from Argentina.",
+      "url": "https://www.youtube.com/@mls",
+      "domain": "www.youtube.com",
+      "position": 30
+    },
+    {
+      "title": "Soccer News - Results, Fixtures, Scores, Stats, and Rumors",
+      "snippet": "Breaking Soccer news and in-depth analysis from the best newsroom in sports. Follow your favorite clubs. Get the latest injury updates, player news and more ...",
+      "url": "https://theathletic.com/football/",
+      "domain": "theathletic.com",
+      "position": 31
+    },
+    {
+      "title": "NCAA college soccer home - News, scores, rankings",
+      "snippet": "Get the latest NCAA men's college soccer news, scores and rankings for all divisions.",
+      "url": "https://www.ncaa.com/sports/soccer-men/d1",
+      "domain": "www.ncaa.com",
+      "position": 32
+    },
+    {
+      "title": "Home - Grassroot Soccer - Grassroot Soccer",
+      "snippet": "Grassroot Soccer is an adolescent health organization that leverages the power of soccer to equip young people with the life-saving information, services, and ...",
+      "url": "https://grassrootsoccer.org/",
+      "domain": "grassrootsoccer.org",
+      "position": 33
+    },
+    {
+      "title": "Soccer",
+      "snippet": "Rules · Comparative Study of Rules of Laws (2023) · Soccer Points of Emphasis - 2023-24 · Soccer Rules Interpretations - 2023-24 · Soccer Rules Poster - 2023-24 ...",
+      "url": "https://www.nfhs.org/activities-sports/soccer/",
+      "domain": "www.nfhs.org",
+      "position": 34
+    },
+    {
+      "title": "Soccer Games ⚽ Play on CrazyGames",
+      "snippet": "Play the Best Online Soccer Games for Free on CrazyGames, No Download or Installation Required. Play Soccer Random and Many More Right Now!",
+      "url": "https://www.crazygames.com/t/soccer",
+      "domain": "www.crazygames.com",
+      "position": 35
+    },
+    {
+      "title": "Orlando City",
+      "snippet": "Orlando Soccer Insider | City and Pride back in action on the road. MLS ... Soccer Insider Promo 1920x1080. Follow Orlando City. Social accounts. Latest Video.",
+      "url": "https://www.orlandocitysc.com/",
+      "domain": "www.orlandocitysc.com",
+      "position": 36
+    },
+    {
+      "title": "NBC Sports Soccer",
+      "snippet": "Supporters of the beautiful game. The American home of the Premier League on NBC, @usanetwork and @peacock.",
+      "url": "https://twitter.com/nbcsportssoccer?lang=en",
+      "domain": "twitter.com",
+      "position": 37
+    },
+    {
+      "title": "Soccer Without Borders",
+      "snippet": "Soccer Without Borders is an award-winning international nonprofit that uses soccer as a vehicle for positive change.",
+      "url": "https://www.soccerwithoutborders.org/",
+      "domain": "www.soccerwithoutborders.org",
+      "position": 38
+    },
+    {
+      "title": "Soccer in the Streets",
+      "snippet": "Empowering Atlanta's youth through soccer training, character development and employability programs.",
+      "url": "https://www.soccerstreets.org/",
+      "domain": "www.soccerstreets.org",
+      "position": 39
+    },
+    {
+      "title": "FIFA - Soccer News, Scores, Stats, Standings, and Rumors",
+      "snippet": "CBS Sports has the latest Soccer news, live scores, player stats, standings, fantasy games, and projections.",
+      "url": "https://www.cbssports.com/soccer/",
+      "domain": "www.cbssports.com",
+      "position": 40
+    },
+    {
+      "title": "Why Do Some People Call Football “Soccer”?",
+      "snippet": "Linguistically creative students at the University of Oxford in the 1880s distinguished between the sports of “rugger” (rugby football) and “assoccer” ( ...",
+      "url": "https://www.britannica.com/story/why-do-some-people-call-football-soccer",
+      "domain": "www.britannica.com",
+      "position": 41
+    },
+    {
+      "title": "Soccer News and Leagues | Microsoft Start Sports",
+      "snippet": "Soccer ; Teamtalk. Ranking the 10 best American stars in Premier League history: Pulisic fourth, Friedel second… ; AS USA. CONCACAF Champions Cup schedule: Semi- ...",
+      "url": "https://www.msn.com/en-us/sports/soccer",
+      "domain": "www.msn.com",
+      "position": 42
+    },
+    {
+      "title": "Soccer",
+      "snippet": "23 for '23: Lionel Messi's Miami Move Shook Up U.S. Soccer · 23 for '23: Spain Women's Soccer Ushers in a New Reign.",
+      "url": "https://www.si.com/soccer",
+      "domain": "www.si.com",
+      "position": 43
+    },
+    {
+      "title": "Sporting Kansas City vs. Inter Miami CF | Historic crowd! 72k+ In Attendance",
+      "snippet": "... crowd! 72k+ In Attendance | Full Match Highlights. 1.2M views · 1 day ago #10 on Trending ...more. Major League Soccer. 1.41M. Subscribe.",
+      "url": "https://m.youtube.com/watch?v=9B-8Zz7tcrY",
+      "domain": "m.youtube.com",
+      "position": 44
+    },
+    {
+      "title": "Soccer",
+      "snippet": "The Official Athletic Site of the Vanderbilt Commodores. The most comprehensive coverage of the Vanderbilt Soccer on the web with highlights, scores, ...",
+      "url": "https://vucommodores.com/sports/wsoc/",
+      "domain": "vucommodores.com",
+      "position": 45
+    },
+    {
+      "title": "Football (soccer) | History, Game, Rules, & Significant Players",
+      "snippet": "The early years ... Modern football originated in Britain in the 19th century. Since before medieval times, “folk football” games had been played in towns and ...",
+      "url": "https://www.britannica.com/sports/football-soccer",
+      "domain": "www.britannica.com",
+      "position": 46
+    },
+    {
+      "title": "MLS News, Scores, & Standings",
+      "snippet": "SOCCER >. MLS NEWS. NEWS · SCORES · STANDINGS · SCHEDULE · STATS · ODDS · VIDEOS · TEAMS · SOCIAL ... New York officials approve $780M soccer stadium for NYCFC ...",
+      "url": "https://www.foxsports.com/soccer/mls",
+      "domain": "www.foxsports.com",
+      "position": 47
+    },
+    {
+      "title": "Soccer24.com: Live Soccer Scores, Results, Betting Odds",
+      "snippet": "Soccer24.com brings you the latest soccer results, livescore and betting odds from over 1000+ leagues worldwide - EPL, LaLiga, Serie A, UCL and more.",
+      "url": "https://www.soccer24.com/",
+      "domain": "www.soccer24.com",
+      "position": 48
+    },
+    {
+      "title": "Attacking Soccer",
+      "snippet": "... soccer refers to the ability of a group of players to maintain possession of the ball during play against a live opponent . In a ... soccer. 33 Possession Soccer.",
+      "url": "https://books.google.com/books?id=c9dWH-e4CMoC&pg=PA33&lpg=PA33&dq=soccer&source=bl&ots=L4uT_t9huT&sig=ACfU3U3zrql9pGjEhkXJNO9Qtey4m9jTcQ&hl=en",
+      "domain": "books.google.com",
+      "position": 49
+    },
+    {
+      "title": "American Youth Soccer Organization",
+      "snippet": "Built on the power of volunteer support, AYSO brings together community members to coach, referee and support their local Regions with the ultimate goal of ...",
+      "url": "https://ayso.org/",
+      "domain": "ayso.org",
+      "position": 50
+    },
+    {
+      "title": "Nike Soccer",
+      "snippet": "This Week's Picks · FG High-Top Soccer Cleats. Nike Superfly 9 Elite Mercurial Dream Speed · FG Low-Top Soccer Cleats · Men's Pullover French Terry Soccer ...",
+      "url": "https://www.nike.com/soccer",
+      "domain": "www.nike.com",
+      "position": 51
+    },
+    {
+      "title": "GotSoccer - Our Software - Your Journey",
+      "snippet": "... soccer community. Our goal is to help the game grow and flourish, and that is why we have created easy to use tools for every level of the game - be you a ...",
+      "url": "https://home.gotsoccer.com/",
+      "domain": "home.gotsoccer.com",
+      "position": 52
+    },
+    {
+      "title": "Live Soccer Scores, Fixtures & Results | Goal.com US",
+      "snippet": "The latest soccer news, live scores, results, rumours, transfers, fixtures, tables and player profiles from around the world, including Champions League.",
+      "url": "https://www.goal.com/en-us",
+      "domain": "www.goal.com",
+      "position": 53
+    },
+    {
+      "title": "Soccer",
+      "snippet": "Want to get these alerts sent to you directly? Click here.",
+      "url": "https://www.foxnews.com/category/sports/soccer",
+      "domain": "www.foxnews.com",
+      "position": 54
+    },
+    {
+      "title": "FOX Soccer",
+      "snippet": "FOX Soccer. 5688069 likes · 82217 talking about this. Download the new FOX Sports App now!",
+      "url": "https://m.facebook.com/foxsoccer/",
+      "domain": "m.facebook.com",
+      "position": 55
+    },
+    {
+      "title": "Women's Soccer - Rockford University",
+      "snippet": "The official Women's Soccer page for the Rockford University.",
+      "url": "https://rockfordregents.com/sports/womens-soccer",
+      "domain": "rockfordregents.com",
+      "position": 56
+    },
+    {
+      "title": "Soccer - Baylor Athletics",
+      "snippet": "Quick Links · Official Baylor Sports App · Podcasts · Big 12 Now on ESPN+ · Ticketing · Betty Lou Mays Field Opens in new window ...",
+      "url": "https://baylorbears.com/sports/womens-soccer",
+      "domain": "baylorbears.com",
+      "position": 57
+    },
+    {
+      "title": "Soccer (football) - Sports",
+      "snippet": "Soccer (Football). The sport of soccer (called football in most of the world) is considered to be the world's most popular sport. In soccer there are two teams ...",
+      "url": "https://www.ducksters.com/sports/soccer.php",
+      "domain": "www.ducksters.com",
+      "position": 58
+    },
+    {
+      "title": "What is a Soccer Draw? Why Ties Exist in Soccer",
+      "snippet": "What Is a Draw in Soccer? In soccer, a draw or a tie happens when both teams have scored the same number of goals after the end of the playing time. The ...",
+      "url": "https://opengoaaalusa.com/blogs/news/what-is-a-soccer-draw",
+      "domain": "opengoaaalusa.com",
+      "position": 59
+    },
+    {
+      "title": "Men's Soccer",
+      "snippet": "The official Men's Soccer page for the Simpson University Red Hawks.",
+      "url": "https://simpsonredhawks.com/sports/mens-soccer",
+      "domain": "simpsonredhawks.com",
+      "position": 60
+    },
+    {
+      "title": "High School Soccer - Rankings, Schedules, Scores",
+      "snippet": "The most complete coverage of High School Soccer. Find schedules and scores, rankings, stat leaderboards, and thorough team information.",
+      "url": "https://www.maxpreps.com/soccer/",
+      "domain": "www.maxpreps.com",
+      "position": 61
+    },
+    {
+      "title": "Mechanics of Soccer Heading and Protective Headgear",
+      "snippet": "... Soccer. Soccer is the most popular sports in the world with an active involvement of more than 4% of the world's ... Soccer 1.3 Soccer Heading and Concussion.",
+      "url": "https://books.google.com/books?id=6A1ZDwAAQBAJ&pg=PA3&lpg=PA3&dq=soccer&source=bl&ots=ocY0u7DG5i&sig=ACfU3U1eQrH-dolNZXAyeplxwWjIiBvi9w&hl=en",
+      "domain": "books.google.com",
+      "position": 62
+    },
+    {
+      "title": "Soccer Cleats, Clothing & Gear",
+      "snippet": "Direct the game with Predator, unleash speed and agility with X, and outclass everyone with COPA. Welcome to the home of adidas Soccer.",
+      "url": "https://www.adidas.com/us/soccer",
+      "domain": "www.adidas.com",
+      "position": 63
+    },
+    {
+      "title": "Nashville SC",
+      "snippet": "The latest news, scores and highlights from Tennessee's Major League Soccer team, Nashville SC.",
+      "url": "https://www.nashvillesc.com/",
+      "domain": "www.nashvillesc.com",
+      "position": 64
+    },
+    {
+      "title": "Soccer live scores, results, standings, statistics",
+      "snippet": "Soccer live - soccer scores, standings, fixtures, statistics and results archive. Livesport.com offers scores service for more than 1000 soccer competitions ...",
+      "url": "https://www.livesport.com/soccer/",
+      "domain": "www.livesport.com",
+      "position": 65
+    },
+    {
+      "title": "The CONCAFA Soccer Club - TBT and TST - The Basketball Tournament",
+      "snippet": "McAfee is known for his recent rise to the top of the sports media world, but what you didn't know is that the former NFL Punter has an extensive soccer ...",
+      "url": "https://thetournament.com/tst/teams/the-concafa-soccer-club/",
+      "domain": "thetournament.com",
+      "position": 66
+    },
+    {
+      "title": "Men's Soccer",
+      "snippet": "Top Stories · Jan. 9. Men's Soccer. Joy-Brandon accepts full-time position with Mockingbird Valley Premier · Nov. 21. Men's Soccer. Eight Academic All-District ...",
+      "url": "https://spaldingathletics.com/sports/mens-soccer",
+      "domain": "spaldingathletics.com",
+      "position": 67
+    },
+    {
+      "title": "Georgia Soccer: Homepage",
+      "snippet": "Georgia Soccer is the authorized state youth and adult association for Georgia within the United States Adult Soccer Association, United States Youth Soccer ...",
+      "url": "https://www.georgiasoccer.org/",
+      "domain": "www.georgiasoccer.org",
+      "position": 68
+    },
+    {
+      "title": "Soccer",
+      "snippet": "The Official Athletic Site of the Arkansas Razorbacks Soccer. The most comprehensive coverage on the web with highlights, scores, game summaries, ...",
+      "url": "https://arkansasrazorbacks.com/sport/w-soccer/",
+      "domain": "arkansasrazorbacks.com",
+      "position": 69
+    },
+    {
+      "title": "Soccerway: Live scores, results, fixtures, tables, statistics and news",
+      "snippet": "Stay on top of the latest soccer/football news, scores, fixtures and results from around the world with Soccerway. The ultimate ressource for fans and ...",
+      "url": "https://int.soccerway.com/",
+      "domain": "int.soccerway.com",
+      "position": 70
+    },
+    {
+      "title": "Indiana Soccer: Homepage",
+      "snippet": "ZIONSVILLE YOUTH SOCCER ASSOCIATION HOSTS A US SOCCER NATIONAL D COURSE IN-PERSON. LEARN MORe. INDIANA SOCCER ASSOCIATION CELEBRATES OUTSTANDING INDIVIDUALS & ...",
+      "url": "https://www.soccerindiana.org/",
+      "domain": "www.soccerindiana.org",
+      "position": 71
+    },
+    {
+      "title": "Top Drawer Soccer",
+      "snippet": "... Soccer. A 24-player roster is heading to U.S. Under-15 Men's Youth National Team Camp in Atlanta, Georgia.Read more · topdrawersoccer-teamrank-update-boys.",
+      "url": "https://www.topdrawersoccer.com/",
+      "domain": "www.topdrawersoccer.com",
+      "position": 72
+    },
+    {
+      "title": "Women's Soccer",
+      "snippet": "Stories · Alexander. wsoc Nov. 27. Three Sycamores named to the CSC Academic All-District team · Mullen. wsoc Nov. 17. Five Sycamores named to MVC Soccer ...",
+      "url": "https://gosycamores.com/sports/womens-soccer",
+      "domain": "gosycamores.com",
+      "position": 73
+    },
+    {
+      "title": "Strength Training for Soccer",
+      "snippet": "... soccer. Change of direction, which is a part of agility, in general is influenced by the combination of the athlete and the task (i.e., movement for soccer) ...",
+      "url": "https://books.google.com/books?id=HtR2EAAAQBAJ&pg=PA29&lpg=PA29&dq=soccer&source=bl&ots=0Mjzv0wbq1&sig=ACfU3U1dSc_j8UCxPkHm-KjPg_MeiOr3kA&hl=en",
+      "domain": "books.google.com",
+      "position": 74
+    },
+    {
+      "title": "Women's Soccer",
+      "snippet": "LOS ANGELES – The USC women's soccer team announced another addition to its incoming class this week, welcoming in transfer forward Maile Hayes from Texas A&M.",
+      "url": "https://usctrojans.com/sports/womens-soccer",
+      "domain": "usctrojans.com",
+      "position": 75
+    },
+    {
+      "title": "Men's Soccer",
+      "snippet": "The official Men's Soccer page for the Skidmore College Thoroughbreds.",
+      "url": "https://skidmoreathletics.com/sports/mens-soccer",
+      "domain": "skidmoreathletics.com",
+      "position": 76
+    },
+    {
+      "title": "Soccer",
+      "snippet": "Please Gamble Responsibly. Call 1-800-522-4700 (NH), 888-789-7777 / visit ccpg.org (CT), or visit www.1800gambler.net (WV). Void where prohibited.",
+      "url": "https://www.sbnation.com/soccer",
+      "domain": "www.sbnation.com",
+      "position": 77
+    },
+    {
+      "title": "Men's Soccer - Hood College",
+      "snippet": "The official Men's Soccer page for the.",
+      "url": "https://hoodathletics.com/sports/mens-soccer",
+      "domain": "hoodathletics.com",
+      "position": 78
+    },
+    {
+      "title": "The World through Soccer: The Cultural Impact of a Global Sport",
+      "snippet": "... soccer. Stanković thus became the first ever soccer player to represent three national teams in three different World Cups. The point is that in recognizing ...",
+      "url": "https://books.google.com/books?id=SMiWAwAAQBAJ&pg=PA128&lpg=PA128&dq=soccer&source=bl&ots=6SAEt0TwtP&sig=ACfU3U05JfntRbi-UGA7MwwMjvCYP0mD_A&hl=en",
+      "domain": "books.google.com",
+      "position": 79
+    },
+    {
+      "title": "Women's Soccer",
+      "snippet": "The official Women's Soccer page for the Roberts Wesleyan University Redhawks.",
+      "url": "https://robertsredhawks.com/sports/womens-soccer",
+      "domain": "robertsredhawks.com",
+      "position": 80
+    },
+    {
+      "title": "Street Soccer USA",
+      "snippet": "Street Soccer USA was founded in 2009 by two brothers out of a homeless soup kitchen in Charlotte, NC. That single team has grown into a national non-profit ...",
+      "url": "https://www.streetsoccerusa.org/",
+      "domain": "www.streetsoccerusa.org",
+      "position": 81
+    },
+    {
+      "title": "Men's Soccer",
+      "snippet": "Top stories · msoc. |. Feb. 1. Men's Soccer ID Camp - April 20, 2024 · mcross. |. Dec. 5. NAIA Daktronics Scholar Athletes · msoc. |. Nov. 9. Jay Jay Van Der ...",
+      "url": "https://bushnellbeacons.com/sports/mens-soccer",
+      "domain": "bushnellbeacons.com",
+      "position": 82
+    },
+    {
+      "title": "FIFA World Cup 26™",
+      "snippet": "The FIFA World Cup 26™ will be the 23rd edition of the tournament but the first to feature 48 teams and three host countries: Canada, Mexico and the United ...",
+      "url": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/canadamexicousa2026",
+      "domain": "www.fifa.com",
+      "position": 83
+    },
+    {
+      "title": "The Soccer Corner",
+      "snippet": "Welcome to the Soccer Corner Soccer Store. We've got all you need, including personalized jerseys, training gear, t-shirts, polos, kids apparel, and much ...",
+      "url": "https://www.thesoccercorner.com/",
+      "domain": "www.thesoccercorner.com",
+      "position": 84
+    },
+    {
+      "title": "Welcome | International Table Soccer Federation",
+      "snippet": "ITSF is pleased to announce that Kenya is now one of its federation members: Kenya Foosball Table Soccer Federation. Previous Pause Next ...",
+      "url": "https://www.tablesoccer.org/",
+      "domain": "www.tablesoccer.org",
+      "position": 85
+    },
+    {
+      "title": "New Jersey Youth Soccer",
+      "snippet": "New Jersey Youth Soccer empowers more than 110000 youth players from 5 to 19-years-old, 10000+ coaches, and thousands of volunteers.",
+      "url": "https://www.njyouthsoccer.com/",
+      "domain": "www.njyouthsoccer.com",
+      "position": 86
+    },
+    {
+      "title": "YANYODO Durable 6\" Mini Size Training Soccer Ball Soft Sports Toy ...",
+      "snippet": "Well-Designed Size. This mini soccer ball for kids is available in two sizes for different ages. The size 1.5 is suitable for children under 6 years old, and ...",
+      "url": "https://www.amazon.com/YANYODO-Durable-Training-Soccer-Toddlers/dp/B07PQPBF56",
+      "domain": "www.amazon.com",
+      "position": 87
+    },
+    {
+      "title": "Men's Soccer - University at Albany Great Danes",
+      "snippet": "Great Dane Tv · Men's Soccer. /. Oct 29. Men's Soccer Clinches Playoff Berth with 1-0 Win Over Binghamton · Men's Soccer. /. Oct 17. Men''s Soccer Plays to 1-1 ...",
+      "url": "https://ualbanysports.com/sports/mens-soccer",
+      "domain": "ualbanysports.com",
+      "position": 88
+    },
+    {
+      "title": "Lake Hills Soccer Club",
+      "snippet": "Lake Hills Soccer Club (LHSC), located in Bellevue, Washington, provides Recreational and Select youth soccer programs that serve children and young adults ( ...",
+      "url": "https://www.lakehillssoccer.org/",
+      "domain": "www.lakehillssoccer.org",
+      "position": 89
+    },
+    {
+      "title": "Orange County Soccer Club",
+      "snippet": "The official website of Orange County SC.",
+      "url": "https://www.orangecountysoccer.com/",
+      "domain": "www.orangecountysoccer.com",
+      "position": 90
+    },
+    {
+      "title": "Rush Soccer: Home",
+      "snippet": "Rush Soccer is the largest club in the world. Clubs and players join Rush because we help our partners succeed on and off the field.",
+      "url": "https://rushsoccer.com/",
+      "domain": "rushsoccer.com",
+      "position": 91
+    },
+    {
+      "title": "Men's Soccer",
+      "snippet": "The official Men's Soccer page for the Longwood University Lancers.",
+      "url": "https://longwoodlancers.com/sports/mens-soccer",
+      "domain": "longwoodlancers.com",
+      "position": 92
+    },
+    {
+      "title": "Men's Soccer - CWRU Athletics",
+      "snippet": "The official Men's Soccer page for the Case Western Reserve University.",
+      "url": "https://athletics.case.edu/sports/mens-soccer",
+      "domain": "athletics.case.edu",
+      "position": 93
+    },
+    {
+      "title": "Livescore - soccer results",
+      "snippet": "Livescore - Place where you can find live soccer results. All is real time. Soccer leagues from all over the world.",
+      "url": "https://www.livescore.cz/",
+      "domain": "www.livescore.cz",
+      "position": 94
+    },
+    {
+      "title": "Women's Soccer - Colorado Springs",
+      "snippet": "The official Women's Soccer page for the University of Colorado Colorado Springs Mountain Lions.",
+      "url": "https://gomountainlions.com/sports/womens-soccer",
+      "domain": "gomountainlions.com",
+      "position": 95
+    }
+  ]
+}

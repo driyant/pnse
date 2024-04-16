@@ -1,9 +1,9 @@
 import styles from "./NormalResult.module.css";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
-import { formatDate } from "../../helper";
+// import { formatDate } from "../../helper";
 import "react-toastify/dist/ReactToastify.css";
-import ButtonLoadMore from "../ButtonLoadMore/ButtonLoadMore";
+// import ButtonLoadMore from "../ButtonLoadMore/ButtonLoadMore";
 
 const NormalResult = ({
   results,
@@ -21,19 +21,19 @@ const NormalResult = ({
               {isLoading ? (
                 <Skeleton />
               ) : (
-                <p className={styles.url_links}>{result.url}...</p>
+                <p className={styles.url_links}>{result.url}</p>
               )}
               <h3>
                 <a href={result.url}>
-                  {isLoading ? <Skeleton /> : result.name}
+                  {isLoading ? <Skeleton /> : result.title}
                 </a>
               </h3>
               <p className={styles.description}>
                 {isLoading ? <Skeleton /> : result.snippet}
               </p>
-              <p style={{ fontSize: "0.675rem" }}>
+              {/* <p style={{ fontSize: "0.675rem" }}>
                 {formatDate(result.dateLastCrawled)}
-              </p>
+              </p> */}
               <div
                 className={styles.bookmarks}
                 onClick={() => bookmarkHandler(result)}
@@ -51,7 +51,9 @@ const NormalResult = ({
             </div>
           );
         })}
-        {results.length !== 0 && <ButtonLoadMore loadmoreHandler={loadmoreHandler} />}
+        {/* {results.length !== 0 && (
+          <ButtonLoadMore loadmoreHandler={loadmoreHandler} />
+        )} */}
       </div>
     </>
   );

@@ -1,4 +1,3 @@
-
 .wrapper {
   display: flex;
   flex-flow: column wrap;
@@ -8,20 +7,22 @@
 .wrapper .content {
   width: 100%;
   overflow-x: hidden;
-  box-shadow: 10px 11px 21px 5px rgba(0,0,0,0.1);
+  box-shadow: 10px 11px 21px 5px rgba(0, 0, 0, 0.1);
   margin: 1rem 0;
   background: transparent;
   border-radius: 12px;
+  /* height: fit-content; */
 }
 
 .wrapper .content img {
   object-fit: contain;
   width: 100%;
-  height: 200px;
+  height: 280px;
 }
 
 .wrapper .content a {
-  text-decoration: none;
+  text-align: center;
+  text-decoration: underline;
   color: #383838;
 }
 
@@ -40,7 +41,7 @@
     padding: 1rem;
   }
   .wrapper .content img {
-    height: auto;
+    height: 280px;
   }
 }
 
@@ -52,7 +53,6 @@
     gap: 10px;
   }
   .wrapper .content img {
-    height: auto;
+    height: 280px;
   }
 }
-
