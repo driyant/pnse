@@ -80,11 +80,6 @@ const SearchResult = () => {
   };
 
   useEffect(() => {
-    navigate(`/search?q=${searchInput}&cat=${selectedOptions}`);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [q, cat]);
-
-  useEffect(() => {
     fetchData();
     if (!localStorage.getItem("bookmarks")) {
       localStorage.setItem("bookmarks", JSON.stringify([]));
