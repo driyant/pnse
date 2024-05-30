@@ -84,8 +84,10 @@ const SearchResult = () => {
     if (!localStorage.getItem("bookmarks")) {
       localStorage.setItem("bookmarks", JSON.stringify([]));
     }
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedOptions, q, cat]);
+
   return (
     <>
       <ToastContainer />
