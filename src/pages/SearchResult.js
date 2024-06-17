@@ -16,7 +16,7 @@ const SearchResult = () => {
 
   const [searchParams] = useSearchParams();
   const q = searchParams.get("q");
-  const cat = searchParams.get("cat");
+  let cat = searchParams.get("cat");
   const navigate = useNavigate();
   const [searchInput, setSearchInput] = useState(q);
   const [selectedOptions, setSelectedOptions] = useState(cat);
@@ -31,7 +31,7 @@ const SearchResult = () => {
   //   if (selectedOptions === "normal") {
   //     setOffset(offset + 10);
   //   }
-  // };
+  // }
 
   const fetchData = async () => {
     setIsLoading(true);
@@ -103,7 +103,10 @@ const SearchResult = () => {
               id="category"
               className={styles.category}
               defaultValue={cat}
-              onChange={(e) => setSelectedOptions(e.target.value)}
+              onChange={(e) => {
+                setSelectedOptions(e.target.value);
+                navigate(`/search?q=${q}&cat=${e.target.value}`);
+              }}
             >
               <option value="web">Web search</option>
               <option value="image">Image search</option>
